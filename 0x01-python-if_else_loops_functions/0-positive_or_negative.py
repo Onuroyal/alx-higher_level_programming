@@ -6,4 +6,5 @@ if number > 0:
 elif number == 0:
     print("{} is zero".format(number))
 else:
-    print("{} is negavitve".format(number))
+    print(number, "is negative")
+
