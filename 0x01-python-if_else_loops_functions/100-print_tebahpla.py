@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-for i in range(122, 96 -1):
-    if (i % 2 != 0):
-        print('{}'.format(chr(i - 32)), end='')
-    else:
-        print('{}'.format(chr(i)), end='')
+for i in range(25, -1, -1):
+    print('{}{}'.format(chr(ord('a') + i) if i % 2 == 0 else chr(ord('A') + i), ''), end='')
